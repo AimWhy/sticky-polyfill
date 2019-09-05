@@ -1,0 +1,20 @@
+{
+  "name": "@aimwhy/sticky-polyfill",
+  "version": "1.0.0",
+  "description": "sticky-polyfill",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup src/index.js --file dist/index.js --format umd --name sticky"
+  },
+  "keywords": [
+    "sticky",
+    "polyfill"
+  ],
+  "author": "wanghongying",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^1.20.3"
+  }
+}
